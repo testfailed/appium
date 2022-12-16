@@ -4,7 +4,7 @@
 
 import B from 'bluebird';
 import glob from 'glob';
-import {env, fs} from '@appium/support';
+import {env, fs, util} from '@appium/support';
 import _ from 'lodash';
 import path from 'path';
 import YAML from 'yaml';
@@ -29,7 +29,7 @@ const CONFIG_DATA_PLUGIN_KEY = `${PLUGIN_TYPE}s`;
 /**
  * @type {Readonly<ManifestData>}
  */
-const INITIAL_MANIFEST_DATA = Object.freeze({
+export const INITIAL_MANIFEST_DATA = Object.freeze({
   [CONFIG_DATA_DRIVER_KEY]: Object.freeze({}),
   [CONFIG_DATA_PLUGIN_KEY]: Object.freeze({}),
   schemaRev: CURRENT_SCHEMA_REV,
@@ -156,43 +156,109 @@ export class Manifest {
   });
 
   /**
-   * Searches `APPIUM_HOME` for installed extensions and adds them to the manifest.
+   * Searches `APPIUM_HOME` for installed extensions and adds them to the
+   * manifest.
+   *
+   * Updates extensions found in the manifest via rebuilding and removes missing extensions
+   * after warning the user.
+   *
    * @returns {Promise<boolean>} `true` if any extensions were added, `false` otherwise.
    */
   async syncWithInstalledExtensions() {
-    // this could be parallelized, but we can't use fs.walk as an async iterator
+    /**
+     * "Changed" flag. If this method does anything to the internal data, this
+     * will be set to `true`.  This value is returned from this method.
+     */
     let didChange = false;
+
+    /**
+     * Update `didChange` if the value is truthy
+     * @param {any} value
+     * @returns {void}
+     */
+    const setChangedFlag = (value) => {
+      didChange = Boolean(value) || didChange;
+    };
 
     /**
      * Listener for the `match` event of a `glob` instance
      * @param {string} filepath - Path to a `package.json`
      * @returns {Promise<void>}
      */
-    const onMatch = async (filepath) => {
+    const handlePackage = async (filepath) => {
       try {
         const pkg = JSON.parse(await fs.readFile(filepath, 'utf8'));
         if (isExtension(pkg)) {
-          const extType = isDriver(pkg) ? DRIVER_TYPE : PLUGIN_TYPE;
-          /**
-           * this should only be 'unknown' if the extension's `package.json` is invalid
-           * @type {string}
-           */
-          const name = isDriver(pkg)
-            ? pkg.appium.driverName
-            : isPlugin(pkg)
-            ? pkg.appium.pluginName
-            : '(unknown)';
-          if (
-            (isDriver(pkg) && !this.hasDriver(name)) ||
-            (isPlugin(pkg) && !this.hasPlugin(name))
-          ) {
+          /** @type {ExtensionType} */
+          let extType;
+          /** @type {string} */
+          let name;
+          /** @type {boolean} */
+          let isNew;
+
+          if (isDriver(pkg)) {
+            extType = DRIVER_TYPE;
+            name = pkg.appium.driverName;
+            isNew = !this.hasDriver(name);
+          } else if (isPlugin(pkg)) {
+            extType = PLUGIN_TYPE;
+            name = pkg.appium.pluginName;
+            isNew = !this.hasPlugin(name);
+          } else {
+            log.warn(
+              `Discovered possible extension in package "${pkg.name}" but it is invalid. Try reinstalling it or updating to a new version.`
+            );
+            return;
+          }
+
+          if (isNew) {
             log.info(`Discovered installed ${extType} "${name}"`);
           }
-          const changed = this.addExtensionFromPackage(pkg, filepath);
-          didChange = didChange || changed;
+
+          try {
+            setChangedFlag(this.addExtensionFromPackage(pkg, filepath));
+          } finally {
+            // remove the extension from the missing list, if it's there
+            if (isDriver(pkg)) {
+              missingDrivers.delete(pkg.name);
+            } else {
+              missingPlugins.delete(pkg.name);
+            }
+          }
         }
-      } catch {}
+      } catch (err) {
+        // only eat ENOENT errors in which `package.json` is missing.
+        if (/** @type {NodeJS.ErrnoException} */ (err).code !== 'ENOENT') {
+          log.warn(err);
+        }
+      }
     };
+
+    /**
+     * Lookup of drivers found in the manifest, by package name.
+     *
+     * Used to remove missing drivers from the manifest.
+     * @type {Map<string, {installPath?: string, name: string}>}
+     */
+    const missingDrivers = new Map(
+      Object.entries(this.#data.drivers).map(([name, driver]) => [
+        driver.pkgName,
+        {installPath: driver.installPath, name},
+      ])
+    );
+
+    /**
+     * Lookup of plugins found in the manifest, by package name
+     *
+     * Used to remove missing drivers from the manifest.
+     * @type {Map<string, {installPath?: string, name: string}>}
+     */
+    const missingPlugins = new Map(
+      Object.entries(this.#data.plugins).map(([name, plugin]) => [
+        plugin.pkgName,
+        {installPath: plugin.installPath, name},
+      ])
+    );
 
     /**
      * A list of `Promise`s which read `package.json` files looking for Appium extensions.
@@ -200,7 +266,7 @@ export class Manifest {
      */
     const queue = [
       // look at `package.json` in `APPIUM_HOME` only
-      onMatch(path.join(this.#appiumHome, 'package.json')),
+      handlePackage(path.join(this.#appiumHome, 'package.json')),
     ];
 
     // add dependencies to the queue
@@ -218,14 +284,54 @@ export class Manifest {
       )
         .on('error', reject)
         .on('match', (filepath) => {
-          queue.push(onMatch(filepath));
+          queue.push(handlePackage(filepath));
         });
     });
 
-    // wait for everything to finish
+    // wait for the extensions found by glob to be processed
     await B.all(queue);
 
+    // there might be stuff left over that isn't where we'd expect it to be.
+    // use the `installPath` field, if present, to find it.
+    for (const {installPath} of [...missingDrivers.values(), ...missingPlugins.values()]) {
+      if (installPath) {
+        queue.push(handlePackage(installPath));
+      }
+    }
+
+    // wait for extensions-by-`installPath` to be processed
+    await B.all(queue);
+
+    setChangedFlag(this.#removeMissingExtensions(DRIVER_TYPE, missingDrivers));
+    setChangedFlag(this.#removeMissingExtensions(PLUGIN_TYPE, missingPlugins));
+
     return didChange;
+  }
+
+  /**
+   * Given a mapping of missing-on-disk extensions, remove them from the manifest
+   * @param {ExtensionType} extType
+   * @param {Map<string, {installPath?: string, name: string}>} missingExtMap
+   * @returns {boolean} If any extensions were removed
+   */
+  #removeMissingExtensions(extType, missingExtMap) {
+    if (missingExtMap.size) {
+      log.warn(
+        `Removing ${util.pluralize('reference', missingExtMap.size)} to ${util.pluralize(
+          extType,
+          missingExtMap.size,
+          true
+        )} in the manifest that could not be found on disk: ${_.map(
+          [...missingExtMap.values()],
+          'name'
+        ).join(', ')}; `
+      );
+      for (const {name} of missingExtMap.values()) {
+        delete this.#data[`${extType}s`][name];
+      }
+      return true;
+    }
+    return false;
   }
 
   /**
@@ -441,9 +547,6 @@ export class Manifest {
        * 2. we have performed a migration on a manifest file
        * 3. `appium` is a dependency within `package.json`, and `package.json`
        *    has changed since last time we checked.
-       *
-       * It may also make sense to sync with the extensions in an arbitrary
-       * `APPIUM_HOME`, but we don't do that here.
        */
       if (
         shouldWrite ||
