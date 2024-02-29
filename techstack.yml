@@ -1,0 +1,1741 @@
+repo_name: todaypp/appium
+report_id: 6b190d02cecb87745397ee979d8f619b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:33:57+00:00'
+requested_by: eglitise
+provider: github
+branch: master
+detected_tools_count: 128
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/todaypp/appium
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/todaypp/appium
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/todaypp/appium
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/todaypp/appium
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/todaypp/appium
+  detection_source: Repo Metadata
+- name: YAML
+  description: A straightforward machine parsable data serialization format designed
+    for human readability and interaction
+  website_url: http://www.yaml.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1744/yaml.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/appium/package.json
+  detection_source: packages/appium/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-05-07 22:49:20.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/support/package.json
+  detection_source: packages/support/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-05-14 21:11:55.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-03-31 23:15:46.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Adam Christian
+  last_updated_on: 2013-01-10 00:57:28.000000000 Z
+- name: Appium
+  description: Automation for iOS and Android Apps
+  website_url: http://appium.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Mobile Testing Frameworks
+  image_url: https://img.stackshare.io/service/2855/0KVJyYNC_400x400.jpg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/appium/test/fixtures/test-driver/package.json
+  detection_source: packages/appium/test/fixtures/test-driver/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2022-08-23 21:08:51.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Adam Christian
+  last_updated_on: 2013-01-10 00:57:28.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Isaac Murchie
+  last_updated_on: 2016-08-03 19:14:29.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/todaypp/appium
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/.github/workflows/auto-labeler.yml
+  detection_source: ".github/workflows/auto-labeler.yml"
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-03-29 23:03:02.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-22 06:13:50.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/support/package.json
+  detection_source: packages/support/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-05-14 21:11:55.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-10 09:14:07.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/support/package.json
+  detection_source: packages/support/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-05-14 21:11:55.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/schema/package.json
+  detection_source: packages/schema/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2022-03-31 20:54:09.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 17.0.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-08 21:27:58.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-10-07 21:55:16.000000000 Z
+- name: WebdriverIO
+  description: Webdriver/Selenium 2.0 JavaScript bindings for Node.js
+  website_url: http://webdriver.io/
+  version: 8.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/4185/webdriver.io.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-21 08:25:33.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Adam Christian
+  last_updated_on: 2013-01-10 00:57:28.000000000 Z
+- name: Ora
+  description: Agile task management and visual team collaboration, Ora is your team’s
+    command center with kanban, chat and timers!
+  website_url: https://ora.pm/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/appium/package.json
+  detection_source: packages/appium/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-05-07 22:49:20.000000000 Z
+- name: Bluebird
+  description: A full featured promise library with unmatched performance
+  website_url: https://github.com/petkaantonov/bluebird/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/11991/bb.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/appium/package.json
+  detection_source: packages/appium/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-16 08:32:03.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2021-09-13 20:23:12.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-27 12:45:46.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/todaypp/appium
+  detection_source: Repo Metadata
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/appium/package.json
+  detection_source: packages/appium/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-10-08 06:25:55.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-27 08:05:34.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/docutils/package.json
+  detection_source: packages/docutils/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-02-08 19:03:10.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-03-31 23:15:46.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: xpath
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XPath
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4621/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/fake-driver/package.json
+  detection_source: packages/fake-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-17 21:06:49.000000000 Z
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 18.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  version: 18.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/bluebird"
+  description: TypeScript definitions for bluebird
+  package_url: https://www.npmjs.com/@types/bluebird
+  version: 3.5.42
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16458/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-28 13:21:21.000000000 Z
+- name: "@types/chai"
+  description: TypeScript definitions for chai
+  package_url: https://www.npmjs.com/@types/chai
+  version: 4.3.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/chai-as-promised"
+  description: TypeScript definitions for chai-as-promised
+  package_url: https://www.npmjs.com/@types/chai-as-promised
+  version: 7.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16527/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-28 13:21:21.000000000 Z
+- name: "@types/json-schema"
+  description: TypeScript definitions for json-schema 4.0, 6.0 and
+  package_url: https://www.npmjs.com/@types/json-schema
+  version: 7.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18771/default_a5859a22d2687bca431101598566ff063dd79fa9.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/schema/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.202
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-28 13:21:21.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 10.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.18.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/pluralize"
+  description: TypeScript definitions for pluralize
+  package_url: https://www.npmjs.com/@types/pluralize
+  version: 0.0.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17552/default_5133f19ba634118175f1e1bf0c5b91999134bf79.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-28 13:21:21.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  version: 7.5.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/sinon"
+  description: TypeScript definitions for Sinon
+  package_url: https://www.npmjs.com/@types/sinon
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16151/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/sinon-chai"
+  description: TypeScript definitions for sinon-chai
+  package_url: https://www.npmjs.com/@types/sinon-chai
+  version: 3.2.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16728/default_5ea3918e441555ef1fd413f4100fe15fe23b366f.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/source-map-support"
+  description: TypeScript definitions for source-map-support
+  package_url: https://www.npmjs.com/@types/source-map-support
+  version: 0.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18129/image.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-28 13:21:21.000000000 Z
+- name: "@types/ws"
+  description: TypeScript definitions for ws
+  package_url: https://www.npmjs.com/@types/ws
+  version: 8.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@types/yargs"
+  description: TypeScript definitions for yargs
+  package_url: https://www.npmjs.com/@types/yargs
+  version: 17.0.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 6.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 6.17.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-05-07 22:49:20.000000000 Z
+- name: archiver
+  description: A streaming interface for archive generation
+  package_url: https://www.npmjs.com/archiver
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-21 10:02:14.000000000 Z
+- name: argparse
+  description: Very powerful CLI arguments parser
+  package_url: https://www.npmjs.com/argparse
+  version: 1.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17073/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-21 10:02:14.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-22 08:09:31.000000000 Z
+- name: chai-as-promised
+  description: Extends Chai with assertions about promises
+  package_url: https://www.npmjs.com/chai-as-promised
+  version: 7.1.1
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15970/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-21 10:02:14.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/docutils/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-02-08 19:03:10.000000000 Z
+- name: consola
+  description: Elegant Console Logger for Node.js and Browser
+  package_url: https://www.npmjs.com/consola
+  version: 2.15.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18067/image.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/docutils/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-01-27 00:20:35.000000000 Z
+- name: cpy-cli
+  description: Copy files
+  package_url: https://www.npmjs.com/cpy-cli
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16964/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-08-19 06:56:39.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-03-30 20:07:02.000000000 Z
+- name: diff
+  description: A javascript text diff implementation
+  package_url: https://www.npmjs.com/diff
+  version: 4.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/docutils/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-01-27 00:20:35.000000000 Z
+- name: es6-error
+  description: Easily-extendable error for use with ES6 classes
+  package_url: https://www.npmjs.com/es6-error
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17825/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2021-09-13 20:23:12.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: eslint-find-rules
+  description: Find built-in ESLint rules you don't have in your custom config
+  package_url: https://www.npmjs.com/eslint-find-rules
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17563/default_3c6aa8b4297562bfc2a090966a5bc0fad1d0b678.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: eslint-import-resolver-typescript
+  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
+  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
+  version: 3.6.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: eslint-plugin-mocha
+  description: Eslint rules for mocha
+  package_url: https://www.npmjs.com/eslint-plugin-mocha
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16194/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 6.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: fancy-log
+  description: Log things, prefixed with a timestamp
+  package_url: https://www.npmjs.com/fancy-log
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17353/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2022-03-25 22:26:46.000000000 Z
+- name: fast-xml-parser
+  description: Validate XML or Parse XML to JS/JSON very fast without C/C++ based
+    libraries
+  package_url: https://www.npmjs.com/fast-xml-parser
+  version: 4.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18585/default_8f927dfbacb5114543043eda4a41364f4f47ff2c.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/universal-xml-plugin/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-10-03 12:56:33.000000000 Z
+- name: figures
+  description: Unicode symbols with Windows CMD fallbacks
+  package_url: https://www.npmjs.com/figures
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17105/default_faf55ef1f2892d4dcce54ed77892756797ff34e1.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/docutils/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-02-08 19:03:10.000000000 Z
+- name: finalhandler
+  description: Node.js final http responder
+  package_url: https://www.npmjs.com/finalhandler
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17238/default_747c790463912ea0e3a85597146d9c13d6a53db9.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2022-03-23 08:42:35.000000000 Z
+- name: form-data
+  description: A library to create readable "multipart/form-data" streams
+  package_url: https://www.npmjs.com/form-data
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2021-09-13 20:23:12.000000000 Z
+- name: get-port
+  description: Get an available port
+  package_url: https://www.npmjs.com/get-port
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16732/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-15 07:13:53.000000000 Z
+- name: get-stream
+  description: Get a stream as a string, buffer, or array
+  package_url: https://www.npmjs.com/get-stream
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18041/image.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 9.3.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-09-27 09:58:46.000000000 Z
+- name: http-status-codes
+  description: Constants enumerating the HTTP status codes
+  package_url: https://www.npmjs.com/http-status-codes
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17527/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-09-21 09:38:58.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-03-31 23:15:46.000000000 Z
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 8.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/doctor/package.json
+  last_updated_by: Mykola Mokhnach
+  last_updated_on: 2023-12-15 19:05:30.000000000 Z
+- name: json5
+  description: JSON for humans
+  package_url: https://www.npmjs.com/json5
+  version: 2.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16645/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/docutils/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-01-30 22:03:03.000000000 Z
+- name: klaw
+  description: File system walker with Readable stream interface
+  package_url: https://www.npmjs.com/klaw
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18501/default_e81b0bd76811f164978fa6f4c4f71e0f1ccf1507.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 15.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-02 06:53:51.000000000 Z
+- name: log-symbols
+  description: Colored symbols for various log levels
+  package_url: https://www.npmjs.com/log-symbols
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16742/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-03 07:40:41.000000000 Z
+- name: lru-cache
+  description: A cache object that deletes the least-recently-used items
+  package_url: https://www.npmjs.com/lru-cache
+  version: 5.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16386/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-08 21:28:15.000000000 Z
+- name: method-override
+  description: Override HTTP verbs
+  package_url: https://www.npmjs.com/method-override
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16758/default_92482df1bcbe0d3a46cc1d597c9687a42da1cd04.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-27 12:45:46.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2021-09-13 20:23:12.000000000 Z
+- name: mv
+  description: Fs.rename but works across devices
+  package_url: https://www.npmjs.com/mv
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17889/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-05-14 21:11:55.000000000 Z
+- name: ncp
+  description: Asynchronous recursive file copy utility
+  package_url: https://www.npmjs.com/ncp
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16261/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-05-14 21:11:55.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-03-31 23:15:46.000000000 Z
+- name: npmlog
+  description: Logger for npm
+  package_url: https://www.npmjs.com/npmlog
+  version: 6.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16667/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-12-02 20:48:39.000000000 Z
+- name: path-to-regexp
+  description: Express style path to RegExp utility
+  package_url: https://www.npmjs.com/path-to-regexp
+  version: 0.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16316/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: Mykola Mokhnach
+  last_updated_on: 2023-09-15 17:09:10.000000000 Z
+- name: pkg-dir
+  description: Find the root directory of a Node.js project or npm package
+  package_url: https://www.npmjs.com/pkg-dir
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18021/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/docutils/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-01-31 18:57:47.000000000 Z
+- name: plist
+  description: Mac OS X Plist parser/builder for Node.js and browsers
+  package_url: https://www.npmjs.com/plist
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17352/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-08-07 07:48:32.000000000 Z
+- name: pluralize
+  description: Pluralize and singularize any word
+  package_url: https://www.npmjs.com/pluralize
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16498/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: read-pkg
+  description: Read a package.json file
+  package_url: https://www.npmjs.com/read-pkg
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17758/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/docutils/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-01-27 00:20:35.000000000 Z
+- name: resolve-from
+  description: Resolve the path of a module like `require.resolve
+  package_url: https://www.npmjs.com/resolve-from
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17861/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: Jonathan Lipps
+  last_updated_on: 2021-11-15 20:24:42.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 4.4.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-09-27 09:58:26.000000000 Z
+- name: sanitize-filename
+  description: Sanitize a string for use as a filename
+  package_url: https://www.npmjs.com/sanitize-filename
+  version: 1.6.3
+  license: WTFPL,ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17504/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 6.3.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-21 10:02:14.000000000 Z
+- name: serve-favicon
+  description: Favicon serving middleware with caching
+  package_url: https://www.npmjs.com/serve-favicon
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16361/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/base-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: serve-static
+  description: Serve static files
+  package_url: https://www.npmjs.com/serve-static
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16295/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-06 15:45:37.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.33.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/images-plugin/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-23 00:02:54.000000000 Z
+- name: shell-quote
+  description: Quote and parse shell commands
+  package_url: https://www.npmjs.com/shell-quote
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17489/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-21 10:02:14.000000000 Z
+- name: sinon-chai
+  description: Extends Chai with assertions for the Sinon.JS mocking framework
+  package_url: https://www.npmjs.com/sinon-chai
+  version: 3.7.0
+  license: BSD-2-Clause,WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15914/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-08 21:27:58.000000000 Z
+- name: slugify
+  description: Slugifies a String
+  package_url: https://www.npmjs.com/slugify
+  version: 1.6.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17389/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/strongbox/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-04-06 23:03:12.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: Kazuaki Matsuo
+  last_updated_on: 2023-12-22 23:46:23.000000000 Z
+- name: supports-color
+  description: Detect whether a terminal supports color
+  package_url: https://www.npmjs.com/supports-color
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17084/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: through2
+  description: A tiny wrapper around Node.js streams.Transform
+  package_url: https://www.npmjs.com/through2
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15948/default_fdb56d0865cbc86d9157d5e33f9313d760ed0e83.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2021-10-07 22:55:01.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 9.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-30 06:31:08.000000000 Z
+- name: tsd
+  description: Check TypeScript type definitions
+  package_url: https://www.npmjs.com/tsd
+  version: 0.30.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16858/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Adam Christian
+  last_updated_on: 2013-01-10 00:57:28.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 12:37:06.000000000 Z
+- name: validate.js
+  description: Declarative validations for JavaScript
+  package_url: https://www.npmjs.com/validate.js
+  version: 0.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17770/default_a3a8e3ccb38174acb180f0920c5d4e2fea848911.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2023-03-31 23:15:46.000000000 Z
+- name: which
+  description: Like which
+  package_url: https://www.npmjs.com/which
+  version: 4.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16482/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-05 21:42:33.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-10-08 06:25:55.000000000 Z
+- name: wrap-ansi
+  description: Wordwrap a string with ANSI escape codes
+  package_url: https://www.npmjs.com/wrap-ansi
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18583/default_8f927dfbacb5114543043eda4a41364f4f47ff2c.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/appium/package.json
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2022-07-07 21:18:26.000000000 Z
+- name: xpath
+  description: DOM 3 XPath implemention and helper for node.js
+  package_url: https://www.npmjs.com/xpath
+  version: 0.0.34
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17813/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/fake-driver/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-17 21:06:49.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 17.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/doctor/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-04-30 06:08:47.000000000 Z
+- name: yargs-parser
+  description: The mighty option parser used by yargs
+  package_url: https://www.npmjs.com/yargs-parser
+  version: 20.2.9
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17207/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/docutils/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-04-30 06:08:47.000000000 Z
+- name: yauzl
+  description: Yet another unzip library for node
+  package_url: https://www.npmjs.com/yauzl
+  version: 2.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18448/default_31e3dc8ee5066945286d4e7345d470ac3863ee5a.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/package-lock.json
+  detection_source: packages/support/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2021-09-13 20:23:12.000000000 Z
+- name: mkdocs-material
+  description: A Material Design theme for MkDocs
+  package_url: https://pypi.org/project/mkdocs-material
+  version: 9.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/docutils/requirements.txt
+  detection_source: packages/docutils/requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-24 07:22:17.000000000 Z
+- name: test-unit
+  description: Test-unit
+  package_url: https://rubygems.org/test-unit
+  license: Ruby,Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18844/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source_url: https://github.com/todaypp/appium/blob/master/packages/appium/sample-code/quickstarts/rb/Gemfile
+  detection_source: packages/appium/sample-code/quickstarts/rb/Gemfile
+  last_updated_by: Kazuaki Matsuo
+  last_updated_on: 2022-07-19 05:03:32.000000000 Z
